@@ -3,19 +3,12 @@ A simple calculator application built using Python.
 
 # Absolute Beginner Calculator
 
-# Step 1: User se input lena
-num1 = float(input("Pehla number likhein: "))
-operator = input("Sign dalein (+, -, *, /): ")
-num2 = float(input("Doosra number likhein: "))
+a = float(input("First Number: "))
+b = float(input("Second Number: ))
 
-# Step 2: Calculation karna
-if operator == "+":
-    print("Result:", num1 + num2)
-elif operator == "-":
-    print("Result:", num1 - num2)
-elif operator == "*":
-    print("Result:", num1 * num2)
-elif operator == "/":
-    print("Result:", num1 / num2)
-else:
-    print("Galat sign dala hai!")
+print("Added", a+b)
+print("subtract", a-b)
+print("Divided", a/b)
+print("Multiply", a*b)
+print("Remainder", a%b)
+print("Exponent", a**b)
